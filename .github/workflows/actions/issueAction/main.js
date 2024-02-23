@@ -1,8 +1,7 @@
 const createIssue = require("./issue");
-const core = require("@actions/core");
 
 async function run() {
-  const newIssue = await createNewIssue();
+  const newIssue = await createIssue();
   console.log(newIssue);
 }
 
