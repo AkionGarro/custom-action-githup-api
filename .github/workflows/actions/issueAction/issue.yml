@@ -1,0 +1,7 @@
+name: "Issue with GithubApi"
+
+description: "use GithubApi to create a new issue"
+
+runs:
+  using: "node16"
+  main: "main.js"
